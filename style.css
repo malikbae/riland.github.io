@@ -1,0 +1,173 @@
+:root {
+  --text-color-primary: #eeeeee;
+  --text-color-hover: #ebb72e;
+  --background: #1e194d;
+}
+
+body {
+  background-color: #dedede;
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: var(--background) !important;
+}
+
+.nav-link {
+  padding: 8px 16px !important;
+  color: var(--text-color-primary) !important;
+}
+
+.nav-link:hover {
+  color: var(--text-color-hover) !important;
+}
+
+.nav-item .active {
+  color: var(--text-color-hover) !important;
+}
+/* End Navbar */
+
+
+/* Hero */
+.jumbotron {
+  background-image: url(img/hero-8.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  color: var(--text-color-primary) !important;
+}
+
+.display-4, .display-5, .display-7 {
+  font-weight: 600 !important;
+}
+
+.display-7 {
+  font-size: 36px;
+}
+/* End Hero */
+
+
+/* Category Card */
+.category-card .card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.category-card .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.category-card .card h3 {
+  font-weight: 600;
+}
+
+.category-card .card img {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.category-card .card-1 {
+  background-image: url(img/summer-holidays.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+.category-card .card-2 {
+  background-image: url(img/time-management.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+.category-card .card-3 {
+  background-image: url(img/reading-book.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+@media (max-width: 990px) {
+  .category-card .card {
+    margin: 20px;
+  }
+}
+/* End Category Card */
+
+
+/* Explore */
+.explore .card {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.explore .card h3 {
+  font-weight: 600;
+}
+
+.explore .card .card-img-top {
+  border-radius: 8px;
+}
+
+.explore .card-body {
+  padding: 12px 0 0;
+}
+
+.explore .card-body .card-text {
+  margin: 0;
+}
+
+.explore .card-body p small {
+  color: #6941c6 !important;
+}
+/* End Explore */
+
+
+/* Footer */
+.footer {
+  color: var(--text-color-primary) !important;
+}
+
+.footer .social-media a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer .social-media a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .social-media a span i {
+  width: 50px;
+}
+
+.footer .text-reset {
+  text-decoration: none;
+}
+
+.footer .text-reset:hover {
+  color: var(--text-color-hover) !important;
+}
+
+.footer .btn-outline-light:hover {
+  background-color: var(--text-color-hover) !important;
+  outline: none;
+  border: none;
+}
+/* End Footer */
