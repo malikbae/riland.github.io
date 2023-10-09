@@ -9,7 +9,6 @@ body {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 
-
 /* Navbar */
 .navbar {
   background-color: var(--background) !important;
@@ -29,7 +28,6 @@ body {
 }
 /* End Navbar */
 
-
 /* Hero */
 .jumbotron {
   background-image: url(img/hero-8.webp);
@@ -41,7 +39,9 @@ body {
   color: var(--text-color-primary) !important;
 }
 
-.display-4, .display-5, .display-7 {
+.display-4,
+.display-5,
+.display-7 {
   font-weight: 600 !important;
 }
 
@@ -49,7 +49,6 @@ body {
   font-size: 36px;
 }
 /* End Hero */
-
 
 /* Category Card */
 .category-card .card {
@@ -107,7 +106,6 @@ body {
 }
 /* End Category Card */
 
-
 /* Explore */
 .explore .card {
   padding: 12px;
@@ -127,14 +125,13 @@ body {
 }
 
 .explore .card-body .card-text {
-  margin: 0;
+  margin-bottom: 5;
 }
 
 .explore .card-body p small {
   color: #6941c6 !important;
 }
 /* End Explore */
-
 
 /* Footer */
 .footer {
