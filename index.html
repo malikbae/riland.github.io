@@ -22,6 +22,11 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
     <!-- Feather Icon -->
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
@@ -84,9 +89,57 @@
     </section>
     <!-- End Hero -->
 
+    <!-- Gallery -->
+    <section class="gallery-wisata">
+      <h1 class="display-5 text-center mb-5">Wisata Terpopuler</h1>
+      <div class="gallery">
+        <a href="img/air-terjun-aek-mertua.jpg">
+          <img src="img/air-terjun-aek-mertua.jpg" alt="" />
+          <div class="overlay"></div>
+          <p class="caption">Caption di sini</p>
+        </a>
+        <a href="img/istana-siak.jpg">
+          <img src="img/istana-siak.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="caption">Caption di sini</div>
+        </a>
+        <a href="img/tugu-ikan-selais.jpg">
+          <img src="img/tugu-ikan-selais.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="caption">Caption di sini</div>
+        </a>
+        <a href="img/ulu-kasok.jpg">
+          <img src="img/ulu-kasok.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="caption">Caption di sini</div>
+        </a>
+        <a href="img/ulu-kasok.jpg">
+          <img src="img/ulu-kasok.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="caption">Caption di sini</div>
+        </a>
+        <a href="img/ulu-kasok.jpg">
+          <img src="img/ulu-kasok.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="caption">Caption di sini</div>
+        </a>
+        <a href="img/ulu-kasok.jpg">
+          <img src="img/ulu-kasok.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="caption">Caption di sini</div>
+        </a>
+        <a href="img/ulu-kasok.jpg">
+          <img src="img/ulu-kasok.jpg" alt="" />
+          <div class="overlay"></div>
+          <div class="caption">Caption di sini</div>
+        </a>
+      </div>
+    </section>
+    <!-- End Gallery -->
+
     <!-- Category Card -->
     <section class="category-card" id="category-card">
-      <div class="container mt-5">
+      <div class="container">
         <h1 class="display-5 text-center mb-5">Cari Kategori</h1>
         <div class="row justify-content-evenly">
           <div class="col-md-4">
@@ -123,7 +176,7 @@
 
     <!-- Explore -->
     <section class="explore">
-      <div class="container mt-5">
+      <div class="container">
         <h1 class="display-5 text-dark text-center mb-5">Jelajahi Kota</h1>
         <div class="row justify-content-evenly mb-5">
           <div class="card shadow" style="width: 24rem">
@@ -347,6 +400,10 @@
     </footer>
     <!-- End Footer -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+      lightGallery(document.querySelector(".gallery"));
+    </script>
     <script>
       feather.replace();
     </script>
