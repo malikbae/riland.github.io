@@ -30,23 +30,87 @@ body {
 
 /* Hero */
 .jumbotron {
-  background-image: url(img/hero-8.webp);
+  background-image: url(img/bg-destinasi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   color: var(--text-color-primary) !important;
+  padding: 20px;
 }
 
-.display-6,
+.jumbotron {
+  background-image: url(img/bg-destinasi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--text-color-primary) !important;
+  padding: 20px;
+}
+
+.form-input {
+  display: flex;
+  justify-content: center;
+  border-style: 5px solid var(--background);
+}
+
+.form-input .select {
+  margin-left: 5px;
+  background-color: var(--background);
+  color: #eeeeee;
+  border-radius: 8px;
+  width: 180px;
+  height: auto;
+}
+
+input[type="text"]::placeholder {
+  color: #eeeeee;
+  margin-left: 10px;
+}
+
+.white-text-input {
+  border: 2px solid var(--background);
+  margin-left: 5px;
+  background-color: var(--background);
+  border-radius: 8px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.white-text-input::placeholder {
+  color: #eeeeee;
+  margin-left: 10px;
+}
+
+.form-input .search {
+  border: 2px solid var(--background);
+  background-color: #eeeeee;
+  margin-left: 5px;
+  background-color: var(--background);
+  border-radius: 8px;
+}
+
+.form-input .search:hover {
+  background-color: var(--text-color-hover);
+}
+
+.form-input .search i {
+  color: #eeeeee;
+}
+
+.display-9,
 .display-5,
-.display-4 {
-  font-weight: 600 !important;
+.display-1 {
+  font-weight: 400 !important;
   font-family: "Otomanopee One", sans-serif !important;
 }
 
-.display-4 {
+.display-1 {
   font-size: 36px;
   font-family: "Potta One", sans-serif !important;
 }
@@ -112,7 +176,8 @@ body {
 .explore .card {
   padding: 12px;
   border-radius: 8px;
-  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .explore .card h3 {
@@ -131,21 +196,28 @@ body {
   margin: 0;
 }
 
-.explore .card-body a {
-  text-decoration: none;
-  padding: 0;
-  color: #eeeeee;
-  font-weight: 400;
-  background-color: var(--background);
-  padding: 5px;
-}
-
-.explore .card-body a:hover {
-  color: var(--text-color-hover);
-}
-
 .explore .card-body p small {
   color: #6941c6 !important;
+}
+
+.page-item .page-link {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pagination .page-item {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-weight: 600;
+}
+
+.pagination .pagination .page-item .active {
+  background-color: var(--text-color-hover);
+  color: var(--background);
+}
+
+.pagination .page-item .page-link:hover {
+  color: var(--background);
+  background-color: var(--text-color-hover);
 }
 /* End Explore */
 
