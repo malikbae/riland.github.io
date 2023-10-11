@@ -32,7 +32,7 @@ body {
 .jumbotron {
   background-image: url(img/hero-8.webp);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   height: 700px;
   display: flex;
