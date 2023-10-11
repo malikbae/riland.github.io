@@ -45,6 +45,7 @@ body {
 .display-5,
 .display-4 {
   font-weight: 600 !important;
+  font-family: "Otomanopee One", sans-serif !important;
 }
 
 .jumbotron .display-6 {
@@ -57,6 +58,7 @@ body {
 
 .display-4 {
   font-size: 36px;
+  font-family: "Potta One", sans-serif !important;
 }
 
 .jumbotron h1,
@@ -199,7 +201,96 @@ section.gallery-wisata {
   background-size: 80px;
 }
 
+.container mt-5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageevent img {
+  border-radius: 8px;
+  width: 110vh;
+  height: 85vh;
+  float: left;
+  margin-right: 30px;
+  box-shadow: 15px 15px #1e194d;
+  transition: transform 0.9s;
+}
+
+.imageevent img:hover {
+  transform: scale(0.9);
+}
+
+.imageevent .card shadow {
+  width: 20vw;
+  margin: auto;
+}
+
+.card-body1 {
+  text-align: center;
+  color: #1e194d;
+}
+
+.card-body1 p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.card-body2 {
+  justify-content: center;
+  color: #1e194d;
+}
+
+.card .card-body2 {
+  margin: 95px 0 95px 0;
+}
+
+.card .card-title {
+  font-size: 100px;
+}
+
 @media (max-width: 990px) {
+  .container mt-5 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageevent {
+    order: 1;
+    margin: 30px;
+  }
+
+  .imageevent img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    justify-self: center;
+  }
+
+  .card-body1 {
+    width: 100%;
+  }
+
+  .card-body1 h3 {
+    font-size: 18px;
+  }
+
+  .card-body1 .card-text {
+    font-size: 15px;
+  }
+
+  .card-body1 .card {
+    height: 18vh;
+    margin-bottom: 14px;
+  }
+
+  .card .card-title {
+    font-size: 50px;
+  }
+
+  .card .card-body2 {
+    margin: auto;
+  }
+
   .category-card .card {
     margin: 20px;
   }
@@ -216,6 +307,7 @@ section.gallery-wisata {
 .event .card {
   padding: 12px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 .explore .card h3,
@@ -246,6 +338,19 @@ section.gallery-wisata {
 .explore .card-body .card-text,
 .event .card-body .card-text {
   margin-bottom: 5px;
+}
+
+.explore .card-body a {
+  text-decoration: none;
+  padding: 0;
+  color: #eeeeee;
+  font-weight: 400;
+  background-color: var(--background);
+  padding: 5px;
+}
+
+.explore .card-body a:hover {
+  color: var(--text-color-hover);
 }
 
 .explore .card-body p small {
@@ -296,7 +401,6 @@ section.gallery-wisata {
   border-left: 1.5625rem solid transparent;
   border-right: 1.5625rem solid transparent;
   border-top: 1.25rem solid var(--background) !important;
-  margin-left: 4.6875rem;
 }
 
 .controls {
