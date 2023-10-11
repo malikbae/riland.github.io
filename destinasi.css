@@ -41,18 +41,6 @@ body {
   padding: 20px;
 }
 
-.jumbotron {
-  background-image: url(img/bg-destinasi.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: var(--text-color-primary) !important;
-  padding: 20px;
-}
-
 .form-input {
   display: flex;
   justify-content: center;

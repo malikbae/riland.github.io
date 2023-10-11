@@ -1,0 +1,84 @@
+:root {
+  --text-color-primary: #eeeeee;
+  --text-color-hover: #ebb72e;
+  --background: #1e194d;
+}
+
+body {
+  background-color: #dedede;
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--background) !important;
+}
+
+.nav-link {
+  padding: 8px 16px !important;
+  color: var(--text-color-primary) !important;
+}
+
+.nav-link:hover {
+  color: var(--text-color-hover) !important;
+}
+
+.nav-item .active {
+  color: var(--text-color-hover) !important;
+}
+/* End Navbar */
+
+/* Hero */
+.gambar,
+.picture {
+  width: 100%;
+  height: 100%;
+}
+/* End Hero */
+
+/* Deskripsi */
+.container-desc {
+  margin-left: auto;
+  text-align: left;
+  position: absolute;
+}
+
+.desc-tulisan {
+  margin-top: 25%;
+  margin-left: 5%;
+  margin: 15px 15px;
+  text-align: left;
+}
+
+.desc-isi1,
+.desc-isi2,
+.desc-isi3,
+.desc-isi4,
+.desc-judul,
+.desc-judul2,
+.li,
+.desc-judul3 {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 50%;
+  padding: 5px;
+}
+
+/* End Deskripsi */
+
+/* Carousel */
+.carousel-slide,
+.carousel-inner,
+.carousel-item active,
+.carousel-item,
+.d-block w-100,
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.visually-hidden {
+  padding: 80px;
+  margin-top: auto;
+}
+
+/* End Carousel */
