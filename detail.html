@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riland</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="detail.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg shadow-sm"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/logo-provRiau-1.png"
+            alt="Logo"
+            width="60"
+            height="50"
+            class="d-inline-block align-text-center"
+          />
+          Riland
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinasi.html">Objek Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="eventpage.html"
+                >Kalender Event</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cerita Kita</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero -->
+    <section class="jumbotron jumbotron-fluid"></section>
+    <!-- End Hero -->
+
+    <!-- Explore -->
+    <section class="explore">
+      <div class="container mt-4 mb-4">
+        <h1 class="display-5 text-dark text-center" style="color: #1e194d">
+          Desa Wisata Okura
+        </h1>
+      </div>
+      <hr />
+      <div class="d-flex">
+        <!-- deskripsi -->
+        <div class="container mt-5 mb-5">
+          <div
+            class="card shadow"
+            style="width: auto; height: auto; margin: 0px 30px 0px 30px"
+          >
+            <div class="card-body" style="text-align: center; color: #1e194d">
+              <h3>Deskripsi</h3>
+            </div>
+            <small class="card-text p-3" style="text-align: justify">
+              Desa Okura adalah salah satu desa wisata yang menampilkan sisi
+              keindahan alami desa. Terlihat dari lingkungan. Saat memasuki
+              desa, terdapat perkebunan sawit yang menghijau membentang secara
+              luas. Kebun ini ditanam langsung oleh masyarakat setempat. Desa
+              ini juga memiliki banyak pepohonan yang menghijau. Tak heran,
+              ketika menyusuri desa terpampang jajaran pohon-pohon yang
+              menghiasi lingkungan. Selain itu, desa ini masih mengusung
+              kebiasaan-kebiasaan lama seperti akrabnya permainan anak yang
+              masih lekat.
+            </small>
+            <hr />
+            <small
+              class="card-text p-3"
+              style="
+                text-align: justify;
+                font-weight: 800;
+                font-family: Roboto Condensed, sans-serif;
+              "
+            >
+              Lokasi : Jl. Raja Panjang Okura, Tebing tinggi Okura, Rumbai
+              pesisir kota Pekanbaru, Riau.
+            </small>
+            <hr />
+            <p
+              class="card-text p-3"
+              style="
+                text-align: justify;
+                font-weight: 800;
+                font-family: Roboto Condensed, sans-serif;
+              "
+            >
+              Fasilitas :
+            </p>
+            <ul class="info">
+              <li>Tarif Bus Air : Rp. 15.000.00/perjalanan</li>
+              <li>Tarif Berkuda : Joy ride Rp. 30.000.00/laps</li>
+              <li>Private Lesson : Rp. 150.000.00/45 menit + Coach</li>
+              <li>Tarif Memanah : Rp. 30.000.00/10x memanah 1 pertemuan</li>
+              <li>
+                Tarif Memanah : Rp. 30.000.00/10x memanah 1 pertemuan | Tarif
+                Memanah : Rp. 50.000.00/20x memanah 1 pertemuan
+              </li>
+              <li>Tarif Membership Memanah : Rp. 100.000.00</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          id="map-container-google-1"
+          class="z-depth-1-half map-container"
+          style="height: 400px; padding-right: 30px; margin-top: 50px"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31916.924895692835!2d101.49885211562501!3d0.5775622000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5b3f02ac83d3b%3A0x3c437a102eedb306!2sTaman%20wisata%20Okura!5e0!3m2!1sid!2sid!4v1697020129377!5m2!1sid!2sid"
+            width="350"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <!-- card contact person -->
+          <div class="card-shadow d-flex flex-column">
+            <p
+              class="card-text mt-3"
+              style="
+                text-align: justify;
+                font-weight: 800;
+                font-family: Roboto Condensed, sans-serif;
+              "
+            >
+              Contact Person
+            </p>
+            <small
+              class="card-text"
+              style="
+                text-align: justify;
+                font-weight: 300;
+                font-family: Roboto Condensed, sans-serif;
+              "
+              >No Hp/Whatsapp : +628 753009 1856</small
+            >
+            <small
+              class="card-text mt-1"
+              style="
+                text-align: justify;
+                font-weight: 300;
+                font-family: Roboto Condensed, sans-serif;
+              "
+              >Email :
+              <a
+                href="okurabersatu@gmail.com"
+                class="email-cp"
+                style="color: black; text-decoration: none"
+                >okurabersatu@gmail.com</a
+              ></small
+            >
+            <p
+              class="card-text mt-3"
+              style="
+                text-align: justify;
+                font-weight: 800;
+                font-family: Roboto Condensed, sans-serif;
+              "
+            >
+              Pengelola
+            </p>
+            <small
+              class="card-text mb-1"
+              style="
+                text-align: justify;
+                font-family: Roboto Condensed, sans-serif;
+              "
+              >Slamet Amir Hamzah</small
+            >
+          </div>
+        </div>
+        <!-- end deskripsi -->
+      </div>
+    </section>
+    <!-- End Explore -->
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-5 mb-5">
+      <h1 class="display-5 text-dark text-center mb-5">Gambar Lainnya</h1>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/okura/1.jpg" class="d-block w-100" alt="..." /
+          height="150px">
+        </div>
+        <div class="carousel-item">
+          <img src="img/okura/2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/okura/3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end carousel -->
+
+    <!-- destinasi lainnya -->
+    <div class="container mt-5">
+      <h1 class="display-5 text-dark text-center mb-5">Semua Objek Wisata</h1>
+      <div class="row justify-content-center mb-5">
+        <div class="card shadow me-3 mt-3" style="width: 15rem">
+          <img
+            src="img/desa-wisata-okura.jpg"
+            class="card-img-top mt-3"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="card-text">
+              <small class="text-body-secondary">Pekanbaru</small>
+            </p>
+            <h3>Desa Wisata Okura</h3>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card shadow me-3 mt-3" style="width: 15rem">
+          <img src="img/ulu-kasok.jpg" class="card-img-top mt-3" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              <small class="text-body-secondary">Rokan Hulu</small>
+            </p>
+            <h3>Air Terjun Aek Martua</h3>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card shadow me-3 mt-3" style="width: 15rem">
+          <img src="img/istana-siak.jpg" class="card-img-top mt-3" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              <small class="text-body-secondary">Rokan Hilir</small>
+            </p>
+            <h3>Pulau Jemur</h3>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card shadow me-3 mt-3" style="width: 15rem">
+          <img src="img/istana-siak.jpg" class="card-img-top mt-3" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              <small class="text-body-secondary">Pekanbaru</small>
+            </p>
+            <h3>Taman Wisata Alam Mayang</h3>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+      class="text-center text-lg-start text-muted"
+      style="background-color: #1e194d"
+    >
+      <section class="footer p-4">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <!--Column 1  -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <img src="img/logo-provRiau-1.png" style="width: 50px" />Riland
+              </h6>
+              <p>
+                Riland adalah sebuah platform yang menyediakan informasi secara
+                jelas dan terupdate mengenai objek wisata yang ada di Riau,
+                Indonesia.
+              </p>
+              <section class="mb-4 social-media">
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><span><i data-feather="facebook"></i></span
+                ></a>
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><span><i data-feather="instagram"></i></span
+                ></a>
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><span><i data-feather="twitter"></i></span
+                ></a>
+              </section>
+            </div>
+            <!-- End Column 1 -->
+
+            <!-- Column 2 -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Beranda</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Objek Wisata</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Kalender Event</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Cerita Kita</a>
+              </p>
+            </div>
+            <!-- End Column 2 -->
+
+            <!-- Column 3 -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Quick Contact</h6>
+              <p>
+                Jika Anda memiliki pertanyaan atau butuh bantuan, jangan ragu
+                untuk menghubungi tim kami.
+              </p>
+              <p style="color: #ebb72e">
+                <i data-feather="phone" style="margin-right: 12px"></i
+                >0771-111834
+              </p>
+              <p>Jl. Merdeka No. 24, Pekanbaru, Riau - Indonesia</p>
+            </div>
+            <!-- End Column 3 -->
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center text-light border-top border-light p-4">
+        © 2023 Copyright Riland. All Rights Reserved
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script>
+      feather.replace();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
