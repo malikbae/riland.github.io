@@ -1,0 +1,87 @@
+.form-input {
+    display: flex;
+    justify-content: center;
+    border-style: 5px solid var(--background);
+}
+
+.form-input .select {
+    margin: 0;
+    background-color: var(--background);
+    color: #eeeeee;
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+}
+
+.input[type="text"]::placeholder {
+    color: #eeeeee;
+    margin-left: 10px;
+}
+
+.white-text-input {
+    width: 780px;
+    border: 2px solid var(--background);
+    margin-left: 5px;
+    background-color: var(--background);
+    border-radius: 8px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.white-text-input::placeholder {
+    color: #eeeeee;
+    margin-left: 10px;
+}
+
+.form-input .search {
+    border: 2px solid var(--background);
+    background-color: #eeeeee;
+    margin-left: 5px;
+    background-color: var(--background);
+    border-radius: 8px;
+}
+
+.form-input .search:hover {
+    background-color: var(--text-color-hover);
+}
+
+.form-input .search i {
+    color: #070606;
+}
+
+.margin-top-cerita {
+    margin-top: 10rem;
+}
+
+.white-text-input-cerita {
+    width: 92%;
+    height: 50px;
+    border: 2px solid white;
+    margin-left: 5px;
+    background-color: #e6e6e6;
+    border-radius: 90px;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+
+.white-text-input-cerita::placeholder {
+    color: #626262;
+    margin-left: 10px;
+}
+
+.div-button{
+    text-align: end;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+.button {
+    width: 10%;
+    height: 50px;
+    border: 2px solid white;
+    margin-left: 5px;
+    background-color: #e6e6e6;
+    border-radius: 90px;
+    color: #626262;
+    padding: 5px 10px;
+}
