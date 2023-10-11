@@ -33,10 +33,12 @@ body {
   background-image: url(img/hero-8.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  background-attachment: fixed;
+  height: 700px;
   display: flex;
   align-items: center;
   color: var(--text-color-primary) !important;
+  overflow: hidden;
 }
 
 .display-6,
@@ -46,16 +48,110 @@ body {
   font-family: "Otomanopee One", sans-serif !important;
 }
 
+.jumbotron .display-6 {
+  font-family: "Otomanopee One", sans-serif !important;
+}
+
+.jumbotron .display-4 {
+  font-family: "Potta One", sans-serif !important;
+}
+
 .display-4 {
   font-size: 36px;
   font-family: "Potta One", sans-serif !important;
 }
+
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
 /* End Hero */
 
+/* Gallery */
+section.gallery-wisata {
+  background-color: var(--text-color-primary);
+  padding: 85px 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gallery a {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 5px #504e4e;
+}
+
+.gallery a .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: height 0.3s ease;
+}
+
+.gallery a:hover .overlay {
+  height: 100%;
+}
+
+.gallery a .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: var(--text-color-primary);
+  transition: transform 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.gallery a:hover .caption {
+  opacity: 1;
+}
+
+.gallery a:hover .caption:hover {
+  color: var(--text-color-hover);
+}
+
+.gallery a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery a:hover img {
+  transform: scale(1.2);
+}
+/* End Gallery */
+
 /* Category Card */
+.category-card,
+.event {
+  background-color: var(--background);
+  padding: 85px 0;
+}
+
+.category-card h1 {
+  color: var(--text-color-primary);
+}
+
 .category-card .card {
   border-radius: 4px;
-  background: #fff;
+  background: var(--text-color-primary);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     0.3s box-shadow,
@@ -67,6 +163,10 @@ body {
 .category-card .card:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.category-card .card a {
+  text-decoration: none;
 }
 
 .category-card .card h3 {
@@ -197,27 +297,47 @@ body {
 }
 /* End Category Card */
 
-/* Explore */
-.explore .card {
+/* Explore & Event*/
+.explore {
+  background-color: var(--text-color-primary);
+  padding: 85px 0;
+}
+
+.explore .card,
+.event .card {
   padding: 12px;
   border-radius: 8px;
   margin-top: 10px;
 }
 
-.explore .card h3 {
+.explore .card h3,
+.event .card h3 {
   font-weight: 600;
 }
 
-.explore .card .card-img-top {
+.explore .card h3 a,
+.event .card h3 a {
+  text-decoration: none;
+}
+
+.explore .card h3 a:hover,
+.event .card h3 a:hover {
+  color: var(--text-color-hover) !important;
+}
+
+.explore .card .card-img-top,
+.event .card .card-img-top {
   border-radius: 8px;
 }
 
-.explore .card-body {
+.explore .card-body,
+.event .card-body {
   padding: 12px 0 0;
 }
 
-.explore .card-body .card-text {
-  margin-bottom: 5;
+.explore .card-body .card-text,
+.event .card-body .card-text {
+  margin-bottom: 5px;
 }
 
 .explore .card-body a {
@@ -237,6 +357,57 @@ body {
   color: #6941c6 !important;
 }
 /* End Explore */
+
+/* Event */
+.event .card .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.event .card .title h3 {
+  margin-bottom: 0;
+}
+.event .card-body p .text-event {
+  color: #6941c6 !important;
+}
+/* End Event */
+
+/* Review */
+.review {
+  width: 100%;
+  height: 100%;
+  background-color: var(--text-color-primary);
+  padding: 85px 0;
+}
+
+.carousel-item {
+  i {
+    color: rgba(#000, 0.3);
+  }
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: var(--background);
+  border-radius: 1.25rem;
+  height: auto;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid var(--background) !important;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* End Testimoni */
 
 /* Footer */
 .footer {
