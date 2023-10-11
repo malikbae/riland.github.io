@@ -9,7 +9,6 @@ body {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 
-
 /* Navbar */
 .navbar {
   background-color: var(--background) !important;
@@ -29,31 +28,47 @@ body {
 }
 /* End Navbar */
 
-
 /* Hero */
 .jumbotron {
   background-image: url(img/hero-8.webp);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
+  background-size: contain;
+  background-attachment: fixed;
+  height: 700px;
   display: flex;
   align-items: center;
   color: var(--text-color-primary) !important;
+  overflow: hidden;
 }
 
-.display-4, .display-5, .display-7 {
+.display-6,
+.display-5,
+.display-4 {
   font-weight: 600 !important;
 }
 
-.display-7 {
+.jumbotron .display-6 {
+  font-family: "Otomanopee One", sans-serif !important;
+}
+
+.jumbotron .display-4 {
+  font-family: "Potta One", sans-serif !important;
+}
+
+.display-4 {
   font-size: 36px;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 /* End Hero */
 
-
 /* Gallery */
-section.gallery-wisata, section.category-card, section.explore {
-  margin-top: 85px;
+section.gallery-wisata {
+  background-color: var(--text-color-primary);
+  padding: 85px 0;
 }
 
 .gallery {
@@ -71,7 +86,7 @@ section.gallery-wisata, section.category-card, section.explore {
   margin: 15px;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 3px 5px #000;
+  box-shadow: 0 3px 5px #504e4e;
 }
 
 .gallery a .overlay {
@@ -105,6 +120,10 @@ section.gallery-wisata, section.category-card, section.explore {
   opacity: 1;
 }
 
+.gallery a:hover .caption:hover {
+  color: var(--text-color-hover);
+}
+
 .gallery a img {
   height: 100%;
   width: 100%;
@@ -112,14 +131,14 @@ section.gallery-wisata, section.category-card, section.explore {
   transition: transform 0.3s;
 }
 
-.gallery a img:hover {
+.gallery a:hover img {
   transform: scale(1.2);
 }
 /* End Gallery */
 
-
 /* Category Card */
-.category-card {
+.category-card,
+.event {
   background-color: var(--background);
   padding: 85px 0;
 }
@@ -142,6 +161,10 @@ section.gallery-wisata, section.category-card, section.explore {
 .category-card .card:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.category-card .card a {
+  text-decoration: none;
 }
 
 .category-card .card h3 {
@@ -183,27 +206,46 @@ section.gallery-wisata, section.category-card, section.explore {
 }
 /* End Category Card */
 
+/* Explore & Event*/
+.explore {
+  background-color: var(--text-color-primary);
+  padding: 85px 0;
+}
 
-/* Explore */
-.explore .card {
+.explore .card,
+.event .card {
   padding: 12px;
   border-radius: 8px;
 }
 
-.explore .card h3 {
+.explore .card h3,
+.event .card h3 {
   font-weight: 600;
 }
 
-.explore .card .card-img-top {
+.explore .card h3 a,
+.event .card h3 a {
+  text-decoration: none;
+}
+
+.explore .card h3 a:hover,
+.event .card h3 a:hover {
+  color: var(--text-color-hover) !important;
+}
+
+.explore .card .card-img-top,
+.event .card .card-img-top {
   border-radius: 8px;
 }
 
-.explore .card-body {
+.explore .card-body,
+.event .card-body {
   padding: 12px 0 0;
 }
 
-.explore .card-body .card-text {
-  margin: 0;
+.explore .card-body .card-text,
+.event .card-body .card-text {
+  margin-bottom: 5px;
 }
 
 .explore .card-body p small {
@@ -211,6 +253,57 @@ section.gallery-wisata, section.category-card, section.explore {
 }
 /* End Explore */
 
+/* Event */
+.event .card .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.event .card .title h3 {
+  margin-bottom: 0;
+}
+.event .card-body p .text-event {
+  color: #6941c6 !important;
+}
+/* End Event */
+
+/* Review */
+.review {
+  width: 100%;
+  height: 100%;
+  background-color: var(--text-color-primary);
+  padding: 85px 0;
+}
+
+.carousel-item {
+  i {
+    color: rgba(#000, 0.3);
+  }
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: var(--background);
+  border-radius: 1.25rem;
+  height: auto;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid var(--background) !important;
+  margin-left: 4.6875rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* End Testimoni */
 
 /* Footer */
 .footer {
