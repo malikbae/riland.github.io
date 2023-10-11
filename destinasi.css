@@ -33,12 +33,14 @@ body {
   background-image: url(img/bg-destinasi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: var(--text-color-primary) !important;
   padding: 20px;
+  overflow: hidden;
 }
 
 .form-input {
@@ -98,9 +100,14 @@ input[type="text"]::placeholder {
   font-family: "Otomanopee One", sans-serif !important;
 }
 
+.display-9 {
+  text-shadow: 1px 1px 10px rgba(2, 2, 2, 1);
+}
+
 .display-1 {
   font-size: 36px;
   font-family: "Potta One", sans-serif !important;
+  text-shadow: 1px 1px 10px rgba(2, 2, 2, 1);
 }
 /* End Hero */
 
