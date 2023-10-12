@@ -106,6 +106,10 @@ body {
   flex-direction: row;
 }
 
+.card-body a:hover {
+  color: var(--text-color-hover);
+}
+
 .imageevent img {
   border-radius: 8px;
   width: 110vh;

@@ -214,6 +214,10 @@ input[type="text"]::placeholder {
   color: var(--background);
   background-color: var(--text-color-hover);
 }
+
+.explore .card-body a:hover {
+  color: var(--text-color-hover);
+}
 /* End Explore */
 
 /* Footer */
