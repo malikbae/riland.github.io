@@ -1,0 +1,183 @@
+{
+  "destinasi": [
+    {
+      "id": 1,
+      "daerah": "Pekanbaru",
+      "nama": "Desa Wisata Okura",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "desa-wisata-okura.jpg"
+    },
+    {
+      "id": 2,
+      "daerah": "Rokan Hulu",
+      "nama": "Air Terjun Aek Martua",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "air-terjun-aek-mertua.jpg"
+    },
+    {
+      "id": 3,
+      "daerah": "Rokan Hilir",
+      "nama": "Pulau Jemur",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 4,
+      "daerah": "Pekanbaru",
+      "nama": "Taman Wisata Alam Mayang",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 5,
+      "daerah": "Kepulauan Meranti",
+      "nama": "Pantai Ceria",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 6,
+      "daerah": "Bengkalis",
+      "nama": "Pantai Rupat",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 7,
+      "daerah": "Indragiri Hilir",
+      "nama": "Pantai Solop",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 8,
+      "daerah": "Indragiri Hulu",
+      "nama": "Danau Raja Rengat",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 9,
+      "daerah": "Kampar",
+      "nama": "Ulu Kasok",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 10,
+      "daerah": "Kampar",
+      "nama": "Air Terjun Batu Dinding",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 11,
+      "daerah": "Pelalawan",
+      "nama": "Istana Sayap",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 12,
+      "daerah": "Pekanbaru",
+      "nama": "Rumah Singgah Tuan Kadi",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 13,
+      "daerah": "Kuantan Singingi",
+      "nama": "Air Terjun Guruh Gemurai",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 14,
+      "daerah": "Dumai",
+      "nama": "Bandar Bakau",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 15,
+      "daerah": "Dumai",
+      "nama": "Pantai Purnama",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 16,
+      "daerah": "Rokan Hulu",
+      "nama": "Batu Gajah",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 17,
+      "daerah": "Rokan Hulu",
+      "nama": "Istana Raja Rokan",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 18,
+      "daerah": "Pekanbaru",
+      "nama": "Mesjid Raya An-Nur",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 19,
+      "daerah": "Kampar",
+      "nama": "Candi Muara Takus",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    },
+    {
+      "id": 20,
+      "daerah": "Siak",
+      "nama": "Istana Siak",
+      "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "gambar": "istana-siak.jpg"
+    }
+  ],
+  "detail": [
+    {
+      "id": 1,
+      "hero": "desa-wisata-okura.jpg",
+      "nama": "Desa Wisata Okura",
+      "deskripsi": "Desa Okura adalah salah satu desa wisata yang menampilkan sisi keindahan alami desa. Terlihat dari lingkungan. Saat memasuki desa, terdapat perkebunan sawit yang menghijau membentang secara luas. Kebun ini ditanam langsung oleh masyarakat setempat. Desa ini juga memiliki banyak pepohonan yang menghijau. Tak heran, ketika menyusuri desa terpampang jajaran pohon-pohon yang menghiasi lingkungan. Selain itu, desa ini masih mengusung kebiasaan-kebiasaan lama seperti akrabnya permainan anak yang masih lekat.",
+      "lokasi": "Jl. Raja Panjang Okura, Tebing tinggi Okura, Rumbai pesisir kota Pekanbaru, Riau.",
+      "fasilitas": [
+        "Tarif Bus Air : Rp. 15.000.00/perjalanan",
+        "Tarif Berkuda : Joy ride Rp. 30.000.00/laps",
+        "Private Lesson : Rp. 150.000.00/45 menit + Coach",
+        "Tarif Memanah : Rp. 30.000.00/10x memanah 1 pertemuan",
+        "Tarif Memanah : Rp. 30.000.00/10x memanah 1 pertemuan | Tarif Memanah : Rp. 50.000.00/20x memanah 1 pertemuan",
+        "Tarif Membership Memanah : Rp. 100.000.00"
+      ],
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31916.924895692835!2d101.49885211562501!3d0.5775622000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5b3f02ac83d3b%3A0x3c437a102eedb306!2sTaman%20wisata%20Okura!5e0!3m2!1sid!2sid!4v1697020129377!5m2!1sid!2sid",
+      "contact": {
+        "telp": "+628 753009 1856",
+        "email": "okurabersatu@gmail.com",
+        "nama": "Slamet Amir Hamzah"
+      },
+      "img": ["okura/1.jpg", "okura/2.jpg", "okura/3.jpg"]
+    },
+    {
+      "id": 2,
+      "hero": "air-terjun-aek-mertua.jpg",
+      "nama": "Air Terjun Aek Martua",
+      "deskripsi": "Air Terjun Aek Martua adalah salah satu obyek wisata unggulan di daerah Riau. Air terjun ini memiliki keunikan dan keistimewaan tersendiri, yakni memiliki tiga tingkatan. Setiap tingkatan memiliki ukuran dan ketinggian yang berbeda-beda. Ketinggian tersebut berkisar antara 15 meter sampai dengan yang tertinggi mencapai 40 meter. Dengan adanya keunikan dan keistimewaan tersebut, menjadikan banyak wisatawan menyebut Air Terjun Aek Martua dengan sebutan Air Terjun Tangga Seribu. Anda bisa bermain air dilokasi air terjun yang pertama yang  memiliki hamparan batu yang cukup luas, sedangkan air terjun kedua memiliki kolam 250 meter untuk mandi. Air terjun ketiga mempunyai ketinggian sekitar 40 meter. Anda harus memiliki keahlian panjat tebing untuk menuju air terjuan tertinggi tersebut.",
+      "lokasi": "Dusun Huta Padang, Kecamatan Bangun Purba, Rokan Hulu, Provinsi Riau",
+      "fasilitas": ["Angkutan umum tujuan Pekanbaru-Pengaraian : Rp. 35.000.00/perjalanan", "Oplet atau Omprengan  : Rp. 5.000.00/perjalanan", "Becak motor atau ojek : Rp. 20.000.00/perjalanan", "Tiket masuk : Rp. 5.000.00/orang"],
+      "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15957.503803400185!2d100.1688612!3d0.8532134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302b6b6aaaaaaaab%3A0x8c05ea98c8a2190c!2sAir%20Terjun%20AEK%20MATUA!5e0!3m2!1sen!2sid!4v1697607454471!5m2!1sen!2sid",
+      "contact": {
+        "telp": "+628 753009 1856",
+        "email": "okurabersatu@gmail.com",
+        "nama": "Slamet Amir Hamzah"
+      },
+      "img": ["okura/1.jpg", "okura/2.jpg", "okura/3.jpg"]
+    }
+  ]
+}
