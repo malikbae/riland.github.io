@@ -37,7 +37,7 @@ const eventsData = {
   },
   "2023-10-19": {
     title: "Pacu Jalur",
-    location: "Pekan Baru",
+    location: "Kuantan Singingi",
     image: "img/gambar pacu jalur.jpg",
   },
   "2023-10-22": {
@@ -52,17 +52,17 @@ const eventsData = {
   },
 };
 
-function createEventElement(date, event) {
+function createEventElement(date, event, index) {
   const eventElement = document.createElement("a");
   eventElement.href = "eventpage.html";
   eventElement.className = "dayevent";
 
   const eventContent = `
     <div class="dayeventt">${date}</div>
-    <div class="event3">
+    <div class="event${index + 1}">
       <img src="${event.image}" alt="" />
-      <p class="event3ket">${event.title}</p>
-      <p class="eventkota3"">${event.location}</p>
+      <p class="event${index + 1}ket">${event.title}</p>
+      <p class="eventkota${index + 1}"">${event.location}</p>
     </div>
   `;
 
@@ -99,7 +99,8 @@ function initCalendar() {
       days += `<div class="day today${hasEventsClass}" data-date="${dateString}">${i}</div>`;
     } else {
       if (event) {
-        const eventElement = createEventElement(i, event);
+        const eventIndex = Object.keys(eventsData).indexOf(dateString);
+        const eventElement = createEventElement(i, event, eventIndex);
         days += eventElement.outerHTML;
       } else {
         days += `<div class="day${hasEventsClass}" data-date="${dateString}">${i}</div>`;
