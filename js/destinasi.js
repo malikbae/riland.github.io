@@ -7,7 +7,9 @@ $.getJSON("./data/data.json", function (data) {
   function renderDestinasi(page) {
     $(".explore .container").empty();
 
-    let h1Element = $("<h1></h1>").addClass("display-5 text-dark text-center mb-5").text("Semua Objek Wisata");
+    let h1Element = $("<h1></h1>")
+      .addClass("display-5 text-dark text-center mb-5")
+      .text("Semua Objek Wisata");
 
     $(".explore .container").append(h1Element);
 
@@ -18,9 +20,11 @@ $.getJSON("./data/data.json", function (data) {
     for (let i = 0; i < rowsPerPage; i++) {
       let row = $('<div class="row justify-content-center mb-5"></div>');
 
-      $.each(rowData.slice(i * itemsPerRow, (i + 1) * itemsPerRow), function (j, item) {
-        let cardHtml = `
-            <div class="card shadow" style="width: 15rem">
+      $.each(
+        rowData.slice(i * itemsPerRow, (i + 1) * itemsPerRow),
+        function (j, item) {
+          let cardHtml = `
+            <div class="card shadow mt-3" style="width: 15rem">
               <img src="img/${item.gambar}" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">
@@ -36,8 +40,9 @@ $.getJSON("./data/data.json", function (data) {
             </div>
         `;
 
-        row.append(cardHtml);
-      });
+          row.append(cardHtml);
+        }
+      );
 
       $(".explore .container").append(row);
     }

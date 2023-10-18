@@ -9,7 +9,20 @@ let activeDay;
 let month = today.getMonth();
 let year = today.getFullYear();
 
-const months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+const months = [
+  "Januari",
+  "Februari",
+  "Maret",
+  "April",
+  "Mei",
+  "Juni",
+  "Juli",
+  "Agustus",
+  "September",
+  "Oktober",
+  "November",
+  "Desember",
+];
 
 const eventsData = {
   "2023-10-06": {
@@ -20,7 +33,7 @@ const eventsData = {
   "2023-10-09": {
     title: "Pawai Budaya",
     location: "Dumai",
-    image: "img/gambar pacu jalur.jpg",
+    image: "img/pawai-budaya-dumai.jpg",
   },
   "2023-10-19": {
     title: "Pacu Jalur",
@@ -30,12 +43,12 @@ const eventsData = {
   "2023-10-22": {
     title: "Pekan Budaya",
     location: "Kampar",
-    image: "img/gambar pacu jalur.jpg",
+    image: "img/pekan-budaya-kampar.jpg",
   },
   "2023-10-30": {
     title: "Festival Batik",
     location: "Kuantan Singingi",
-    image: "img/gambar pacu jalur.jpg",
+    image: "img/festival-batik-kuansing.jpg",
   },
 };
 
@@ -78,7 +91,11 @@ function initCalendar() {
     const dateString = `${year}-${month + 1}-${i < 10 ? "0" : ""}${i}`;
     const event = eventsData[dateString];
     const hasEventsClass = event ? " has-events" : "";
-    if (i === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
+    if (
+      i === today.getDate() &&
+      year === today.getFullYear() &&
+      month === today.getMonth()
+    ) {
       days += `<div class="day today${hasEventsClass}" data-date="${dateString}">${i}</div>`;
     } else {
       if (event) {

@@ -19,119 +19,119 @@
       "daerah": "Rokan Hilir",
       "nama": "Pulau Jemur",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "pulau-jemur.jpg"
     },
     {
       "id": 4,
       "daerah": "Pekanbaru",
       "nama": "Taman Wisata Alam Mayang",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "alam-mayang.jpg"
     },
     {
       "id": 5,
       "daerah": "Kepulauan Meranti",
       "nama": "Pantai Ceria",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "pantai-ceria.jpg"
     },
     {
       "id": 6,
       "daerah": "Bengkalis",
       "nama": "Pantai Rupat",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "pantai-rupat.jpg"
     },
     {
       "id": 7,
       "daerah": "Indragiri Hilir",
       "nama": "Pantai Solop",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "pantai-solop.jpg"
     },
     {
       "id": 8,
       "daerah": "Indragiri Hulu",
       "nama": "Danau Raja Rengat",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "danau-raja.jpg"
     },
     {
       "id": 9,
       "daerah": "Kampar",
       "nama": "Ulu Kasok",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "ulu-kasok.jpg"
     },
     {
       "id": 10,
       "daerah": "Kampar",
       "nama": "Air Terjun Batu Dinding",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "air-terjun-batu.jpg"
     },
     {
       "id": 11,
       "daerah": "Pelalawan",
       "nama": "Istana Sayap",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "istana-sayap.jpeg"
     },
     {
       "id": 12,
       "daerah": "Pekanbaru",
       "nama": "Rumah Singgah Tuan Kadi",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "rumah-tuan-kadi.jpg"
     },
     {
       "id": 13,
       "daerah": "Kuantan Singingi",
       "nama": "Air Terjun Guruh Gemurai",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "air-terjun-guruh-gemurai.jpg"
     },
     {
       "id": 14,
       "daerah": "Dumai",
       "nama": "Bandar Bakau",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "bandar-bakau.jpg"
     },
     {
       "id": 15,
       "daerah": "Dumai",
       "nama": "Pantai Purnama",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "pantai-purnama.jpg"
     },
     {
       "id": 16,
       "daerah": "Rokan Hulu",
       "nama": "Batu Gajah",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "batu-gajah.jpg"
     },
     {
       "id": 17,
       "daerah": "Rokan Hulu",
       "nama": "Istana Raja Rokan",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "istana-raja-rokan.jpg"
     },
     {
       "id": 18,
       "daerah": "Pekanbaru",
       "nama": "Mesjid Raya An-Nur",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "masjid-agung-an-nur-pekanbaru.jpeg"
     },
     {
       "id": 19,
       "daerah": "Kampar",
       "nama": "Candi Muara Takus",
       "deskripsi": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "gambar": "istana-siak.jpg"
+      "gambar": "candi-muara-takus.jpg"
     },
     {
       "id": 20,
@@ -170,7 +170,12 @@
       "nama": "Air Terjun Aek Martua",
       "deskripsi": "Air Terjun Aek Martua adalah salah satu obyek wisata unggulan di daerah Riau. Air terjun ini memiliki keunikan dan keistimewaan tersendiri, yakni memiliki tiga tingkatan. Setiap tingkatan memiliki ukuran dan ketinggian yang berbeda-beda. Ketinggian tersebut berkisar antara 15 meter sampai dengan yang tertinggi mencapai 40 meter. Dengan adanya keunikan dan keistimewaan tersebut, menjadikan banyak wisatawan menyebut Air Terjun Aek Martua dengan sebutan Air Terjun Tangga Seribu. Anda bisa bermain air dilokasi air terjun yang pertama yang  memiliki hamparan batu yang cukup luas, sedangkan air terjun kedua memiliki kolam 250 meter untuk mandi. Air terjun ketiga mempunyai ketinggian sekitar 40 meter. Anda harus memiliki keahlian panjat tebing untuk menuju air terjuan tertinggi tersebut.",
       "lokasi": "Dusun Huta Padang, Kecamatan Bangun Purba, Rokan Hulu, Provinsi Riau",
-      "fasilitas": ["Angkutan umum tujuan Pekanbaru-Pengaraian : Rp. 35.000.00/perjalanan", "Oplet atau Omprengan  : Rp. 5.000.00/perjalanan", "Becak motor atau ojek : Rp. 20.000.00/perjalanan", "Tiket masuk : Rp. 5.000.00/orang"],
+      "fasilitas": [
+        "Angkutan umum tujuan Pekanbaru-Pengaraian : Rp. 35.000.00/perjalanan",
+        "Oplet atau Omprengan  : Rp. 5.000.00/perjalanan",
+        "Becak motor atau ojek : Rp. 20.000.00/perjalanan",
+        "Tiket masuk : Rp. 5.000.00/orang"
+      ],
       "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15957.503803400185!2d100.1688612!3d0.8532134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302b6b6aaaaaaaab%3A0x8c05ea98c8a2190c!2sAir%20Terjun%20AEK%20MATUA!5e0!3m2!1sen!2sid!4v1697607454471!5m2!1sen!2sid",
       "contact": {
         "telp": "+628 753009 1856",
