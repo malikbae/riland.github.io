@@ -10,64 +10,30 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="calender.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <!-- icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Potta One"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Otomanopee One"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Potta One" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Otomanopee One" rel="stylesheet" />
 
     <!-- Feather Icon -->
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <!-- Navbar -->
-    <nav
-      class="navbar fixed-top navbar-expand-lg shadow-sm"
-      data-bs-theme="dark"
-    >
+    <nav class="navbar fixed-top navbar-expand-lg shadow-sm" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img
-            src="img/logo-provRiau-1.png"
-            alt="Logo"
-            width="60"
-            height="50"
-            class="d-inline-block align-text-center"
-          />
+          <img src="img/logo-provRiau-1.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-center" />
           Riland
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -79,12 +45,7 @@
               <a class="nav-link" href="destinasi.html">Objek Wisata</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="calender.html"
-                >Kalender Event</a
-              >
+              <a class="nav-link active" aria-current="page" href="calender.html">Kalender Event</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="ceritakita.html">Cerita Kita</a>
@@ -94,26 +55,14 @@
       </div>
     </nav>
     <!-- End Navbar -->
-    <link
-      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      rel="stylesheet"
-      id="bootstrap-css"
-    />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      rel="stylesheet"
-      id="bootstrap-css"
-    />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <div class="container theme-showcase">
       <h1>Kalender Event</h1>
       <div id="holder" class="row"></div>
@@ -309,20 +258,11 @@
       $.extend(Date.prototype, {
         //menyediakan string _tahun_bulan_hari, dimaksudkan agar dapat digunakan secara luas sebagai kelas css
         toDateCssClass: function () {
-          return (
-            "_" +
-            this.getFullYear() +
-            "_" +
-            (this.getMonth() + 1) +
-            "_" +
-            this.getDate()
-          );
+          return "_" + this.getFullYear() + "_" + (this.getMonth() + 1) + "_" + this.getDate();
         },
         //ini menghasilkan angka yang berguna untuk membandingkan dua tanggal;
         toDateInt: function () {
-          return (
-            (this.getFullYear() * 12 + this.getMonth()) * 32 + this.getDate()
-          );
+          return (this.getFullYear() * 12 + this.getMonth()) * 32 + this.getDate();
         },
         toTimeString: function () {
           var hours = this.getHours(),
@@ -398,12 +338,7 @@
                 return true;
               }
               for (; y < l; y++) {
-                s +=
-                  '<button type="button" class="btn btn-default btn-lg btn-block js-cal-option" data-date="' +
-                  new Date(y, 1, 1).toISOString() +
-                  '" data-mode="year">' +
-                  y +
-                  "</button>";
+                s += '<button type="button" class="btn btn-default btn-lg btn-block js-cal-option" data-date="' + new Date(y, 1, 1).toISOString() + '" data-mode="year">' + y + "</button>";
               }
               $t.popover({
                 content: s,
@@ -467,8 +402,7 @@
               timeclass = ".time-0-0";
             }
             if (hour < 22) {
-              timeclass =
-                ".time-" + hour + "-" + (start.getMinutes() < 30 ? "0" : "30");
+              timeclass = ".time-" + hour + "-" + (start.getMinutes() < 30 ? "0" : "30");
             }
             $(timeclass).append($event);
           }
@@ -486,13 +420,8 @@
               empty = $("<div/>", { class: "clear event", html: " " }),
               numbevents = 0,
               time = event.start.toTimeString(),
-              endday =
-                event.end && $("." + event.end.toDateCssClass()).length > 0,
-              checkanyway = new Date(
-                e.getFullYear(),
-                e.getMonth(),
-                e.getDate() + 40
-              ),
+              endday = event.end && $("." + event.end.toDateCssClass()).length > 0,
+              checkanyway = new Date(e.getFullYear(), e.getMonth(), e.getDate() + 40),
               existing,
               i;
             $event.toggleClass("all-day", !!event.allDay);
@@ -505,27 +434,14 @@
               return;
             }
 
-            while (
-              e <= event.end &&
-              (day.length || endday || options.date < checkanyway)
-            ) {
+            while (e <= event.end && (day.length || endday || options.date < checkanyway)) {
               if (day.length) {
                 existing = day.find(".event").length;
                 numbevents = Math.max(numbevents, existing);
                 for (i = 0; i < numbevents - existing; i++) {
                   day.append(empty.clone());
                 }
-                day.append(
-                  $event
-                    .toggleClass(
-                      "begin",
-                      dateclass === event.start.toDateCssClass()
-                    )
-                    .toggleClass(
-                      "end",
-                      dateclass === event.end.toDateCssClass()
-                    )
-                );
+                day.append($event.toggleClass("begin", dateclass === event.start.toDateCssClass()).toggleClass("end", dateclass === event.end.toDateCssClass()));
                 $event = $event.clone();
                 $event.html(" ");
               }
@@ -582,43 +498,9 @@
           });
         })(
           {
-            days: [
-              "Minggu",
-              "Senin",
-              "Selasa",
-              "Rabu",
-              "Kamis",
-              "Jumat",
-              "Sabtu",
-            ],
-            months: [
-              "Januari",
-              "Februari",
-              "Maret",
-              "April",
-              "Mei",
-              "Juni",
-              "Juli",
-              "Agustus",
-              "September",
-              "Oktober",
-              "November",
-              "December",
-            ],
-            shortMonths: [
-              "Jan",
-              "Feb",
-              "Mar",
-              "Apr",
-              "Mei",
-              "Jun",
-              "Jul",
-              "Agus",
-              "Sept",
-              "Okt",
-              "Nov",
-              "Des",
-            ],
+            days: ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
+            months: ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "December"],
+            shortMonths: ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agus", "Sept", "Okt", "Nov", "Des"],
             date: new Date(),
             daycss: ["c-Minggu", "", "", "", "", "", "c-Sabtu"],
             todayname: "Bulan",
@@ -695,42 +577,25 @@
         data: data,
       });
     </script>
+    <script src="scriptjss.js"></script>
 
     <!-- Footer -->
-    <footer
-      class="text-center text-lg-start text-muted"
-      style="background-color: #1e194d"
-    >
+    <footer class="text-center text-lg-start text-muted" style="background-color: #1e194d">
       <section class="footer p-4">
         <div class="container text-center text-md-start mt-5">
           <div class="row mt-3">
             <!--Column 1  -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-start">
-              <h6 class="text-uppercase fw-bold mb-4">
-                <img src="img/logo-provRiau-1.png" style="width: 50px" />Riland
-              </h6>
-              <p>
-                Riland adalah sebuah platform yang menyediakan informasi secara
-                jelas dan terupdate mengenai objek wisata yang ada di Riau,
-                Indonesia.
-              </p>
+              <h6 class="text-uppercase fw-bold mb-4"><img src="img/logo-provRiau-1.png" style="width: 50px" />Riland</h6>
+              <p>Riland adalah sebuah platform yang menyediakan informasi secara jelas dan terupdate mengenai objek wisata yang ada di Riau, Indonesia.</p>
               <section class="mb-4 social-media">
-                <a
-                  class="btn btn-outline-light btn-floating m-1"
-                  href="#!"
-                  role="button"
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                   ><span><i data-feather="facebook"></i></span
                 ></a>
-                <a
-                  class="btn btn-outline-light btn-floating m-1"
-                  href="#!"
-                  role="button"
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                   ><span><i data-feather="instagram"></i></span
                 ></a>
-                <a
-                  class="btn btn-outline-light btn-floating m-1"
-                  href="#!"
-                  role="button"
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                   ><span><i data-feather="twitter"></i></span
                 ></a>
               </section>
@@ -756,18 +621,10 @@
             <!-- End Column 2 -->
 
             <!-- Column 3 -->
-            <div
-              class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-start"
-            >
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-start">
               <h6 class="text-uppercase fw-bold mb-4">Quick Contact</h6>
-              <p>
-                Jika Anda memiliki pertanyaan atau butuh bantuan, jangan ragu
-                untuk menghubungi tim kami.
-              </p>
-              <p style="color: #ebb72e">
-                <i data-feather="phone" style="margin-right: 12px"></i
-                >0771-111834
-              </p>
+              <p>Jika Anda memiliki pertanyaan atau butuh bantuan, jangan ragu untuk menghubungi tim kami.</p>
+              <p style="color: #ebb72e"><i data-feather="phone" style="margin-right: 12px"></i>0771-111834</p>
               <p>Jl. Merdeka No. 24, Pekanbaru, Riau - Indonesia</p>
             </div>
             <!-- End Column 3 -->
@@ -775,9 +632,7 @@
         </div>
       </section>
 
-      <div class="text-center text-light border-top border-light p-4">
-        © 2023 Copyright Riland. All Rights Reserved
-      </div>
+      <div class="text-center text-light border-top border-light p-4">© 2023 Copyright Riland. All Rights Reserved</div>
     </footer>
     <!-- End Footer -->
 
@@ -785,10 +640,6 @@
       feather.replace();
     </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

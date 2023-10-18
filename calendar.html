@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riland</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="cal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg shadow-sm" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-provRiau-1.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+          Riland
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Objek Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="eventpage.html">Kalender Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cerita Kita</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Calendar -->
+    <div class="container">
+      <div class="left">
+        <div class="calendar" style="margin: 50px 0 0 0">
+          <div class="month">
+            <i class="fa fa-angle-left prev"></i>
+            <div class="date"></div>
+            <i class="fa fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Senin</div>
+            <div>Selasa</div>
+            <div>Rabu</div>
+            <div>Kamis</div>
+            <div>Jumat</div>
+            <div>Sabtu</div>
+            <div>Minggu</div>
+          </div>
+          <div class="days">
+            <!-- <div class="dayy prev-date">30</div>
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <a href="#" class="dayevent">
+              <div class="dayeventt">6</div>
+              <div class="event1">
+                <img src="img/64286-taman-bunga-yang-indah-menawan-di-desa-wisata-okura-pekanbarupanji-ahmad-syuhada 1.jpg" alt="" />
+                <p class="event1ket" style="color: #d78100">Festival Okura</p>
+                <p class="eventkota1" style="color: #d78100">Pekan Baru</p>
+              </div>
+            </a>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <a href="#" class="dayevent">
+              <div class="dayeventt">9</div>
+              <div class="event2">
+                <img src="img/166097290620820_121516_936 1.jpg" alt="" />
+                <p class="event2ket" style="color: #00a10d">Pawai Budaya</p>
+                <p class="eventkota2" style="color: #00a10d">Dumai</p>
+              </div>
+            </a>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day today active">18</div>
+            <a href="eventpage.html" class="dayevent">
+              <div class="dayeventt">19</div>
+              <div class="event3">
+                <img src="img/gambar pacu jalur.jpg" alt="" />
+                <p class="event3ket">Pacu Jalur</p>
+                <p class="eventkota3">Pekan Baru</p>
+              </div>
+            </a>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <a href="#" class="dayevent">
+              <div class="dayeventt">22</div>
+              <div class="event4">
+                <img src="img/MHY_09283_Anggi 1.jpg" alt="" />
+                <p class="event4ket" style="color: #c4a600">Pekan Budaya</p>
+                <p class="eventkota4" style="color: #c4a600">Kampar</p>
+              </div>
+            </a>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <a href="#" class="dayevent">
+              <div class="dayeventt">30</div>
+              <div class="event5">
+                <img src="img/MHY_09283_Anggi 1.jpg" alt="" />
+                <p class="event5ket" style="color: #8f0000">Festival Batik</p>
+                <p class="eventkota5" style="color: #8f0000">Kuantan Singingi</p>
+              </div>
+            </a>
+            <div class="day">31</div>
+            <div class="dayy next-date">1</div>
+            <div class="dayy next-date">2</div>
+            <div class="dayy next-date">3</div> -->
+            <div class="dayevent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Calendar -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted" style="background-color: #1e194d">
+      <section class="footer p-4">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <!--Column 1  -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4"><img src="img/logo-provRiau-1.png" style="width: 50px" />Riland</h6>
+              <p>Riland adalah sebuah platform yang menyediakan informasi secara jelas dan terupdate mengenai objek wisata yang ada di Riau, Indonesia.</p>
+              <section class="mb-4 social-media">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><span><i data-feather="facebook"></i></span
+                ></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><span><i data-feather="instagram"></i></span
+                ></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><span><i data-feather="twitter"></i></span
+                ></a>
+              </section>
+            </div>
+            <!-- End Column 1 -->
+
+            <!-- Column 2 -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Beranda</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Objek Wisata</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Kalender Event</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Cerita Kita</a>
+              </p>
+            </div>
+            <!-- End Column 2 -->
+
+            <!-- Column 3 -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Quick Contact</h6>
+              <p>Jika Anda memiliki pertanyaan atau butuh bantuan, jangan ragu untuk menghubungi tim kami.</p>
+              <p style="color: #ebb72e"><i data-feather="phone" style="margin-right: 12px"></i>0771-1122-334</p>
+              <p>Jl. Merdeka No. 24, Pekanbaru, Riau - Indonesia</p>
+            </div>
+            <!-- End Column 3 -->
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center text-light border-top border-light p-4">© 2023 Copyright Riland. All Rights Reserved</div>
+    </footer>
+    <!-- End Footer -->
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="scriptjss.js"></script>
+  </body>
+</html>
