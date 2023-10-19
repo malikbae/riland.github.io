@@ -35,7 +35,7 @@ const eventsData = {
     location: "Dumai",
     image: "img/pawai-budaya-dumai.jpg",
   },
-  "2023-10-19": {
+  "2023-10-20": {
     title: "Pacu Jalur",
     location: "Kuantan Singingi",
     image: "img/gambar pacu jalur.jpg",
