@@ -6,23 +6,10 @@ const calendar = document.querySelector(".calendar"),
 
 let today = new Date();
 let activeDay;
-let month = today.getMonth();
+let month = today.getMonth() - 1;
 let year = today.getFullYear();
 
-const months = [
-  "Januari",
-  "Februari",
-  "Maret",
-  "April",
-  "Mei",
-  "Juni",
-  "Juli",
-  "Agustus",
-  "September",
-  "Oktober",
-  "November",
-  "Desember",
-];
+const months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 
 const eventsData = {
   "2023-10-06": {
@@ -35,7 +22,7 @@ const eventsData = {
     location: "Dumai",
     image: "img/pawai-budaya-dumai.jpg",
   },
-  "2023-10-20": {
+  "2023-10-19": {
     title: "Pacu Jalur",
     location: "Kuantan Singingi",
     image: "img/gambar pacu jalur.jpg",
@@ -91,11 +78,7 @@ function initCalendar() {
     const dateString = `${year}-${month + 1}-${i < 10 ? "0" : ""}${i}`;
     const event = eventsData[dateString];
     const hasEventsClass = event ? " has-events" : "";
-    if (
-      i === today.getDate() &&
-      year === today.getFullYear() &&
-      month === today.getMonth()
-    ) {
+    if (i === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
       days += `<div class="day today${hasEventsClass}" data-date="${dateString}">${i}</div>`;
     } else {
       if (event) {
